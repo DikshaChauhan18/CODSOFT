@@ -221,4 +221,44 @@ button{
         width: 90%;
     }
 }
+#part4 h1{
+    align-items: center;
+    justify-content: center;
+}
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.landing{
+    background: none;
+}
+
+.projects div{
+    align-items: center;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a77aa7;
+    height: 50px;
+    width: 100%;
+}
+.text{
+    font-weight: bolder;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.icons{
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.icons img{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
